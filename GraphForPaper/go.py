@@ -12,10 +12,10 @@ inheritance1 = (1/(1+ math.exp(-0.01*(600-83.5))))
 sort1 = (1/(1+ math.exp(-0.01*(5-83.5))))
 multi1 = (1/(1+ math.exp(-0.01*(5-83.5))))
 
-tracing = (((0.15-0.09)/(3.61-0.09))+tracing1)/2
-inheritance = (((3.61-0.09)/(3.61-0.09))+inheritance1)/2
-sort = (((0.15-0.09)/(3.61-0.09))+sort1)/2
-multi = (((0.17-0.09)/(3.61-0.09))+multi1)/2
+tracing = ((((0.15-0.09)/(3.61-0.09))+tracing1)/2)*0.66
+inheritance = ((((3.61-0.09)/(3.61-0.09))+inheritance1)/2*1.3)*0.66
+sort = (((0.15-0.09)/(3.61-0.09))+sort1)/4
+multi = (((0.17-0.09)/(3.61-0.09))+multi1)/4
 # x axis values
 x = [-1, 2, 4, 6, 8, 1000]
 # corresponding y axis values

@@ -28,8 +28,8 @@ y = [-1, tracing, inheritance, sort, multi, 1000]
 plt.xticks(x, [None, "Tracing", "Inheritance", "Sorting", "Multitasking", None])
 
 # plotting the points
-plt.plot(x, y, color='green', linestyle='dashed', linewidth=3,
-         marker='o', markerfacecolor='green', markersize=12, label = "C#")
+plt.plot(x, y, color='red', linestyle='dashed', linewidth=3,
+         marker='o', markerfacecolor='red', markersize=12, label = "C# normalized time and memory")
 
 # setting x and y axis range
 plt.ylim(0, 1)

@@ -5,10 +5,14 @@ maxx = 0
 for k in(csharp,cplus,dart,go,java,javascript,kotlin,objective_c,python, swift):
     maxx = max(maxx,k.tracing,k.sort,k.inheritance,k.multi)
 
+
+
+
+
 print(maxx)
 
 
-plt.title('Evaluation of time and memory criteria')
+plt.title('Evaluation after normalization')
 plt.legend()
 plt.ylim(0,1)
 cplus.plt.show()
